@@ -1,0 +1,180 @@
+{
+    "name": "Asto-theme",
+    "description": "A theme to complete my degenerate setup",
+    "authors": [
+        {
+            "name": "Fandrest",
+            "id": "483145634489303041"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": [
+            "#FBFBFB",
+            "#060607"
+        ],
+        "HEADER_SECONDARY": [
+            "#ffc8be",
+            "#4f5660"
+        ],
+        "TEXT_NORMAL": [
+            "#FBFBFB",
+            "#2e3338"
+        ],
+        "TEXT_MUTED": [
+            "#ffc8be",
+            "#8D7474"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#CF9F9F",
+            "#604F4F"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#dcddde",
+            "#382E2E"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#ffc8be",
+            "#070606"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#AB6969",
+            "#D1C7C7"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#202029",
+            "#1e1e2e"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#171717",
+            "#f2f3f5"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#171717",
+            "#ebedef"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#121212",
+            "#e3e5e8"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#ffc8be",
+            "#8D7474"
+        ],
+        "BACKGROUND_FLOATING": [
+            "#171717",
+            "#FFFFFF"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#202029",
+            "#f8f9f9"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#171717",
+            "#ffffff"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#202029",
+            "#ffffff"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "rgba(255, 255, 255, 0.02)",
+            "#FFFFFF"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "rgba(255, 255, 255, 0.02)",
+            "hsla(214, 9.9%, 50.4%, 0.08)"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "rgba(255, 255, 255, 0.03)",
+            "rgba(139, 116, 139, 0.16)"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#1e1e2e",
+            "hsla(214, 9.9%, 50.4%, 0.24)"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#14141f",
+            "hsla(240, 7.7%, 2.5%, 0.08)"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "#5A4545",
+            "hsla(217, 7.6%, 33.5%, 0.3)"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "#171717",
+            "#5A4545"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "#ffc8be",
+            "#cccccc"
+        ], 
+         "SPOILER_HIDDEN_BACKGROUND": [ 
+             "#171717", 
+             "#ffffff"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "#171717",
+            "#45475a"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#171717",
+            "#ebedef"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#A16A6A",
+            "#A16A6A"
+        ],
+        "CHANNEL_ICON": [
+            "#A16A6A",
+            "#A16A6A"
+        ],
+        "TEXT_LINK": [
+            "#ffc8be",
+            "#000000"
+        ],
+        "KEYBOARD": [
+            "#202029",
+            "#FFFFFF"
+        ],
+        "CHAT_BACKGROUND": [
+            "#202029",
+            "#ffffff"
+        ]
+  }, 
+   "rawColors": { 
+     "PRIMARY_500": "#171717",
+     "PRIMARY_600": "#171717", 
+     "PRIMARY_630": "#171717", 
+     "PRIMARY_660": "#171717", 
+     "PRIMARY_700": "#171717", 
+     "PRIMARY_800": "#171717", 
+     "BRAND_260": "#E2B2B2", 
+     "BRAND_360": "#ffc8be", 
+     "BRAND_500": "#ffc8be", 
+     "BRAND_560": "#ffc8be",
+    "YELLOW_300": "#E2B2B2", 
+    "RED_400": "#ffc8be"
+   },
+    "background": {
+        "blur": 0.1,
+        "url": "https://cdn.discordapp.com/attachments/1200319053378617434/1200322254442086400/ven-wall.jpg",
+        "alpha": 1.0
+    },
+     "plus":{
+        "version":"0",
+        "iconpack":"md3",
+        "icons":{
+          "ic_new_pins":["#ffc8be"],
+          "StatusStreaming": ["#643da7"],
+          "StatusMobileOnline": ["#43b581"],
+          "StatusIdle": ["#faa61a"],
+          "StatusDND": ["#f04747"],
+          "StatusOffline": ["#636b75"],
+          "StatusOnline": ["#43b581"]},
+          "ic_radio_square_checked__overlay": "#FBFBFB"
+     },
+    "unreadBadgeColor": "#ffc8be",
+    "mentionLineColor": "#ffc8be",
+    "customOverlays": true,
+    "spec": 2
+}
