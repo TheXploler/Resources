@@ -1,0 +1,14 @@
+[Variables]
+Mode=0
+Decay=200
+Sens=30
+Channel=Stereo
+Bands=40
+Order=0
+Height=50
+BarW=3
+BarH=1
+BarG=2
+Color0=0093fc
+Color1=FFFFFF40
+ShowSet=0
