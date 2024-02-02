@@ -2,7 +2,7 @@
 A simple yt-dlp frontend that I created for myself
 
 ## Installation for windows
-You can use the prebuilt binary [here](link_address)
+You can use the prebuilt binary [here](https://github.com/TheXploler/Resources/releases/latest)
 
 ## Installation for other platforms
 ```bash
