@@ -1,5 +1,5 @@
 # Astol-dlp ⬇️
-A simple yt-dlp frontend that I created for myself
+A simple youtube downloader ([yt-dlp](https://github.com/yt-dlp/yt-dlp) frontend) that I created for myself
 
 ## Installation for windows
 You can use the prebuilt binary [here](https://github.com/TheXploler/Resources/releases/latest)
