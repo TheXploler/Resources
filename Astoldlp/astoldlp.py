@@ -2,22 +2,22 @@ from tkinter import *
 import tkinter as tk
 import ttkbootstrap as ttk
 import yt_dlp as ydl
+from tkinter import filedialog
 
 WINDOW_TITLE = "Astol-dlp"
-WINDOW_WIDTH = 600
-WINDOW_HEIGHT = 400
-URL_LABEL = "Enter video URL:"
-FORMAT_LABEL = "Choose format:"
-DOWNLOAD_LABEL = "Download location:"
+WINDOW_WIDTH = 800
+WINDOW_HEIGHT = 800
+URL_LABEL = "Video URL                  "
+FORMAT_LABEL = "Choose format           "
+DOWNLOAD_LABEL = "Download location    "
 DOWNLOAD_BUTTON = "Download"
 STATUS_LABEL = "Status:"
+PROGRAM_TITLE = ">Astoldlp"
+BROWSE_BUTTON = "📁 Select Folder"
 
 FORMATS = [
-    ("Best", "best"),
-    ("MP4", "mp4"),
-    ("MP3", "mp3"),
-    ("WEBM", "webm"),
-    ("OGG", "ogg"),
+    "mp4",
+    "webm"
 ]
 
 OPTIONS = {
@@ -29,14 +29,15 @@ OPTIONS = {
 
 def download_video():
     url = url_entry.get()
+    download_location = download_entry.get()
+    format = dropdown_field.get()
     if not url:
         status_label.config(text="Status: Invalid URL")
         return
-    format = format_var.get()
     OPTIONS["format"] = format
-    download_location = download_entry.get()
-    if download_location:
-        OPTIONS["outtmpl"] = download_location + "/" + OPTIONS["outtmpl"]
+    if format != "mp4":
+        OPTIONS["format"] = "b*[ext=webm]"    
+
     def progress_hook(d):
         if d["status"] == "finished":
             status_label.config(text=f"Status: Downloaded {d['filename']}")
@@ -48,6 +49,10 @@ def download_video():
     except Exception as e:
         status_label.config(text=f"Status: Error - {e}")
 
+def browse_folder():
+    directory = filedialog.askdirectory()
+    download_entry.insert(0, directory) 
+
 window = ttk.Window(themename="vapor")
 window.title(WINDOW_TITLE)
 window.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}")
@@ -55,7 +60,7 @@ window.resizable(False, False)
 window.iconbitmap("favicon.ico")
 
 bg = PhotoImage(file="img2.png")
-canvas = Canvas(window, width=600, height=160)
+canvas = Canvas(window, width=200, height=200)
 
 url_frame = ttk.Frame(window)
 url_label = ttk.Label(url_frame, text=URL_LABEL)
@@ -63,38 +68,46 @@ url_entry = ttk.Entry(url_frame)
 url_label.pack(side=tk.LEFT)
 url_entry.pack(side=tk.RIGHT, fill=tk.X, expand=True)
 
-format_frame = ttk.Frame(window)
-format_label = ttk.Label(format_frame, text=FORMAT_LABEL)
-format_var = ttk.StringVar()
-format_var.set(FORMATS[0][1])
-format_buttons = []
-for text, value in FORMATS:
-    format_button = ttk.Radiobutton(format_frame, text=text, value=value, variable=format_var)
-    format_buttons.append(format_button)
-format_label.pack(side=tk.LEFT)
-for format_button in format_buttons:
-    format_button.pack(side=tk.LEFT)
-
 download_frame = ttk.Frame(window)
 download_label = ttk.Label(download_frame, text=DOWNLOAD_LABEL)
 download_entry = ttk.Entry(download_frame)
 download_label.pack(side=tk.LEFT)
 download_entry.pack(side=tk.RIGHT, fill=tk.X, expand=True)
 
-button_frame = ttk.Frame(window)
-download_button = ttk.Button(button_frame, text=DOWNLOAD_BUTTON, command=download_video)
-download_button.pack()
+download_button_frame = ttk.Frame(window)
+download_button = ttk.Button(download_button_frame, text=DOWNLOAD_BUTTON, command=download_video)
+download_button.pack(fill=tk.X, expand=True)
 
 status_frame = ttk.Frame(window)
 status_label = ttk.Label(status_frame, text=STATUS_LABEL)
 status_label.pack()
 
-url_frame.pack(fill=tk.X, padx=10, pady=10)
-format_frame.pack(fill=tk.X, padx=10, pady=10)
-download_frame.pack(fill=tk.X, padx=10, pady=10)
-button_frame.pack(padx=10, pady=10)
-status_frame.pack(padx=10, pady=10)
-canvas.pack(fill=tk.X)
-canvas.create_image(0, 0, image=bg, anchor="nw")
+program_title_frame = ttk.Frame(window)
+program_label = ttk.Label(program_title_frame, text=PROGRAM_TITLE, font=("Josefin Sans",50))
+program_label.pack()
+
+browse_button_frame = ttk.Frame(window)
+browse_label = ttk.Label(browse_button_frame, text="                                   ")
+browse_button = ttk.Button(browse_button_frame, text=BROWSE_BUTTON, command=browse_folder)
+browse_label.pack(side=tk.LEFT)
+browse_button.pack(side=tk.RIGHT, fill=tk.X, expand=True)
+
+dropdown_frame = ttk.Frame(window)
+dropdown_label = ttk.Label(dropdown_frame, text=FORMAT_LABEL)
+dropdown_field = ttk.Combobox(dropdown_frame, state="readonly", values=FORMATS)
+dropdown_field.set("mp4")
+dropdown_label.pack(side=tk.LEFT)
+dropdown_field.pack(side=tk.RIGHT, fill=tk.X, expand=True)
+
+
+program_title_frame.pack(fill=tk.X, padx=20, pady=30)
+url_frame.pack(fill=tk.X, padx=100, pady=0)
+dropdown_frame.pack(padx=100, pady=30, fill=tk.X, expand=True)
+download_frame.pack(fill=tk.X, padx=100, pady=0)
+browse_button_frame.pack(fill=tk.X, padx=100, pady=0)
+download_button_frame.pack(padx=100, pady=50, fill=tk.X, expand=True)
+status_frame.pack(padx=10, pady=0)
+canvas.pack(fill=tk.X, expand=True)
+canvas.create_image(200, 0, image=bg, anchor="nw")
 
 window.mainloop()
