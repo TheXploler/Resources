@@ -288,7 +288,7 @@
 
 
 .panels_a4d4d9 {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .theme-dark .container_eedf95 {
@@ -343,7 +343,7 @@
 }
 
 .theme-dark .option_b0286e:hover {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .option_b0286e.user_b0286e .displayAvatar_b0286e {
@@ -407,7 +407,7 @@
 }
 
 .theme-dark .focused_eedf95 {
-    background-color: rgba(118, 171, 217, .70);
+    background-color: rgba(255, 172, 183, .70);
 }
 
 .theme-dark .dim_c90023 .key_c90023 {
@@ -550,7 +550,7 @@
 .searchBar_a46bef {
     border-radius: 7px;
     color: white;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .search_a46bef .DraftEditor-root .public-DraftEditorPlaceholder-root,
@@ -581,7 +581,7 @@
 }
 
 .channelHeader_f3978e {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
     padding: 0 14px;
 }
 
@@ -597,7 +597,7 @@
 .messages_c06487,
 .messageContainer_ddb5b4,
 .forumPost_c53f2f {
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(255, 172, 183, .25);
     border: 2px solid black;
     border-radius: 4px;
 }
@@ -654,7 +654,7 @@
 
 .channelNameText_a9e225 {
     padding: 4px 8px;
-    background: rgba(0, 0, 0, .25);
+    background: rgba(255, 172, 183, .25);
     color: white;
 }
 
@@ -668,11 +668,11 @@
 
 .primary_a41c2a:hover:not(.disabled_e258f5),
 .secondary_e258f5 {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .tertiary_e258f5:hover:not(.disabled_e258f5) {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
     color: white;
 }
 
@@ -771,15 +771,15 @@
 
 .reaction_ec6b19 {
     border-radius: 7px;
-    background: rgba(0, 0, 0, .25);
-    border: 3px solid #242424;
+    background: rgba(255, 172, 183, .25);
+    border: 3px solid #FFBFB2;
 }
 
 /* ..reaction_2A2y9y */
 
 .reaction_ec6b19:hover {
-    background-color: rgba(0, 0, 0, .55);
-    border: 3px outset #242424;
+    background-color: rgba(255, 172, 183, .25);
+    border: 3px outset #FFBFB2;
 }
 
 .embedFull_b0068a {
@@ -799,7 +799,7 @@
 }
 
 .tutorial_f1c3d9 {
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .tutorialIcon_f1c3d9 {
@@ -945,7 +945,7 @@
 }
 
 .wrapper_cdfd51 {
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .avatar_b75bb9 {
@@ -974,7 +974,7 @@
 }
 
 .container_d1c246 {
-    background: rgba(0, 0, 0, .25);
+    background: rgba(255, 172, 183, .25);
 }
 
 .iconWrapper_ec583a {
@@ -990,7 +990,7 @@
 .input_f8bc55 {
     border-radius: 5px;
     color: white;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
     border: 1px solid transparent;
 }
 
@@ -1098,7 +1098,7 @@
 .container_effbe2,
 .container_c18ec9 {
     border-radius: 6px;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
  .input_effbe2,
@@ -1123,7 +1123,7 @@
 }
 
 .emojiItem_fbfedd.emojiItemSelected_fbfedd {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .inspector_c3120f,
@@ -1181,7 +1181,7 @@
 }
 
 .lookFilled_f6639d.select_f6639d {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
     border-color: transparent;
 }
 
@@ -1221,7 +1221,7 @@
 }
 
 .perks-2IIbWQ {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
     border-radius: 4px;
 }
 
@@ -1359,7 +1359,7 @@
 }
 
 .theme-dark .option_bea3ee {
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .optionalCount_e18e73,
@@ -1404,7 +1404,7 @@
 
 .theme-dark .file_f46c86 {
     border-color: transparent;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .theme-dark .message_ddcc45 {
@@ -2178,7 +2178,7 @@
 
 .wrapper_d8bfb3:hover .icon_d8bfb3,
 .wrapper_d8bfb3:hover .name_d8bfb3 {
-    color: #C69B7B;
+    color: #FFE4C4;
 }
 
 .modeSelected_d8bfb3 .icon_d8bfb3,
@@ -2192,7 +2192,7 @@
 .modeUnreadImportant_d8bfb3:hover .icon_d8bfb3,
 .modeUnreadImportant_d8bfb3 .name_d8bfb3,
 .modeUnreadImportant_d8bfb3:hover .name_d8bfb3 {
-    color: #DC143C;
+    color: #FFACB7;
 }
 
 .container_b2ca13 .avatar_b2ca13 foreignObject {
@@ -2287,7 +2287,7 @@
 
 .expandedFolderBackground_bc7085 {
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(255, 172, 183, .25);
 }
 
 .folderIconWrapper_bc7085 {
@@ -2296,7 +2296,7 @@
 }
 
 .folder_bc7085 {
-    background-color: rgba(0, 0, 0, .25) !important;
+    background-color: rgba(255, 172, 183, .25) !important;
 }
 
 .iconInactive_f11207 {
@@ -2308,7 +2308,7 @@ button.button_adca65 {
 }
 
 button.button_adca65.enabled_adca65:hover {
-    background-color: rgba(118, 171, 217, .54);
+    background-color: rgba(255, 172, 183, .54);
     border: 2px outset #FFACB7;
 }
 
@@ -2341,7 +2341,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .container_a47d49:hover {
-    background-color: rgba(118, 171, 217, .33);
+    background-color: rgba(255, 172, 183, .33);
 }
 
 .iconContainer_a2aef9.desaturate-_Twf3u,
@@ -2592,7 +2592,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .theme-dark .hoverablePayment_a28a08:hover {
-    background-color: rgba(118, 171, 217, .56);
+    background-color: rgba(255, 172, 183, .56);
 }
 
 .expandedInfo_a28a08 a,
@@ -2775,7 +2775,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .result_e3c1c6[aria-selected=true] {
-    background: rgba(118, 170, 217, .4);
+    background: rgba(255, 172, 183, .3);
 }
 
 .note_e3c1c6 {
@@ -2824,7 +2824,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .theme-dark .friendSelected_ebf869 {
-    background-color: rgba(118, 171, 217, .5);
+    background-color: rgba(255, 172, 183, .5);
 }
 
 .addFriendInputWrapper_de812f {
@@ -2950,7 +2950,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .container_d331f1:hover {
-    background-color: rgba(118, 170, 217, .4);
+    background-color: rgba(255, 172, 183, .3);
     border-color: #FFACB7;
     box-shadow: none;
 }
@@ -2972,7 +2972,7 @@ button.button_adca65.enabled_adca65:hover {
 /* Active Post Boxes */
 .mainCard_a6d69a,
 .increasedActivityMainCard-2ry6hI {
-    background-color: rgba(97, 165, 216, .4);
+    background-color: rgba(255, 172, 183, .4);
     border: 2px solid transparent;
     border-radius: 5px;
 }
@@ -3014,7 +3014,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .pill_c993da.clickable_c993da:not(.disabled_c993da):hover {
-    background-color: rgba(118, 170, 217, .5);
+    background-color: rgba(255, 172, 183, .5);
 }
 
 .theme-dark .pill_c993da.selected_c993da {
@@ -3033,13 +3033,13 @@ button.button_adca65.enabled_adca65:hover {
 
 .reaction_f61c73 {
     border-radius: 7px;
-    background: rgba(0, 0, 0, .25);
-    border: 3px solid #242424;
+    background: rgba(255, 172, 183, .25);
+    border: 3px solid #FFBFB2;
 }
 
 .reaction_f61c73:hover {
-    background-color: rgba(0, 0, 0, .55);
-    border: 3px outset #242424;
+    background-color: rgba(255, 172, 183, .25);
+    border: 3px outset #FFBFB2;
 }
 
 .reaction_f61c73.reactionMe_f61c73 {
@@ -3071,7 +3071,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .addReactButton_b385c8:hover,
 .buttonInner_b385c8:hover {
-    background-color: rgba(118, 170, 217, .5);
+    background-color: rgba(255, 172, 183, .5);
     border-color: #FFACB7;
 }
 
@@ -3093,7 +3093,7 @@ button.button_adca65.enabled_adca65:hover {
 /* Server Boxes */
 .container_c68a2c,
 .container__29699 {
-    background-color: rgba(97, 165, 216, .4);
+    background-color: rgba(255, 172, 183, .4);
 }
 
 /* Current Server Icon */
@@ -3119,7 +3119,7 @@ button.button_adca65.enabled_adca65:hover {
 
 .card_d4f6c7 {
     border-radius: 5px;
-    background-color: rgba(97, 165, 216, .4);
+    background-color: rgba(255, 172, 183, .4);
 }
 
 .loadingCard_a6d69a {
@@ -3191,7 +3191,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .reactionBtn_ec6b19.forceShowLook_ec6b19:hover {
-    background-color: rgba(118, 170, 217, .5);
+    background-color: rgba(255, 172, 183, .5);
     border-color: #FFACB7;
 }
 
